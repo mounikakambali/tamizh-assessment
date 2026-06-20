@@ -1,0 +1,70 @@
+Test Case 1
+
+batteryCapacity = 100
+initialBattery = 50
+
+tasks =
+[
+ [10,4],
+ [5,8]
+]
+
+chargeRate = 2
+
+Expected Output:
+20.0
+
+
+--------------------------------
+
+Test Case 2
+
+batteryCapacity = 100
+initialBattery = 100
+
+tasks =
+[
+ [5,10]
+]
+
+chargeRate = 2
+
+Expected Output:
+5.0
+
+
+--------------------------------
+
+Test Case 3
+
+batteryCapacity = 50
+initialBattery = 50
+
+tasks =
+[
+ [10,6]
+]
+
+chargeRate = 2
+
+Expected Output:
+-1
+
+
+--------------------------------
+
+Test Case 4
+
+batteryCapacity = 200
+initialBattery = 100
+
+tasks =
+[
+ [10,5],
+ [20,4]
+]
+
+chargeRate = 5
+
+Expected Output:
+30.0
